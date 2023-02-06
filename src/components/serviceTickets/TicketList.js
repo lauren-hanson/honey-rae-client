@@ -35,7 +35,7 @@ export const TicketList = () => {
         }
         else {
             return <button className="actions__create"
-                onClick={() => history.push("/serviceTickets/create")}>Create Ticket</button>
+                onClick={() => history.push("/tickets/create")}>Create Ticket</button>
         }
     }
 

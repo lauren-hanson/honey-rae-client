@@ -36,7 +36,7 @@ export const Ticket = () => {
             {
                 method: "DELETE"
             }
-        ).then(() => history.push("/serviceTickets"))
+        ).then(() => history.push("/tickets"))
     }
 
     const updateTicket = (evt) => {
